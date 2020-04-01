@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Audio Visualizer</title>
+    <meta name="description" content="A cool thing made with React + Express">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+
+  </head>
+  <body>
+      <audio
+      controls
+      loop
+      id="audio"
+      src="breath-trim.wav"
+      >
+      </audio> 
+      <text
+      controls
+      loop
+      id="text"
+      src="dialogues.txt"
+      >
+      </text>
+
+      <div id="main">
+        <!-- the hello world app will be in here! -->
+      </div>
+    
+      <!-- bundle all the scripts! thanks to webpack -->
+      <script type="text/javascript" src="/bundle.js"></script>
+  </body>
+</html>
