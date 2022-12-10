@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "dat.gui": "^0.7.6",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "jsx-loader": "^0.13.2",
     "meyda": "^4.3.1",
